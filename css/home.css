@@ -1,0 +1,169 @@
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+  color: #3C3A38;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: #3C3A38;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #0000FF;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:"europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.img-centered {
+  margin: 0 auto;
+}
+
+.container{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #3C3A38;
+}
+header .intro-text-top {
+  padding-top: 70px;
+  padding-bottom: 0px;
+}
+header .intro-text-bottom {
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+header .line {
+  margin-top: 50px;
+  margin-bottom: 58px;
+  width: 66px;
+  border-bottom: 2px solid #3C3A38;
+  display: inline-block;
+}
+header .title {
+  font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 38px;
+  line-height: 46px;
+  margin-bottom: 10px;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+}
+header .title-secondary {
+  font-family: "Droid Serif", "Times New Roman", Times, serif;
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: 0.09em;
+}
+header .contact {
+  font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+header .soon {
+  font-family: "Droid Serif", "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+  header .intro-text-top {
+    padding-top: 180px;
+    padding-bottom: 0px;
+  }
+  header .intro-text-bottom {
+    padding-top: 0px;
+    padding-bottom: 200px;
+  }
+  header .line {
+    margin-top: 130px;
+    margin-bottom: 100px;
+    width: 130px;
+    border-bottom: 2px solid #3C3A38;
+    display: inline-block;
+  }
+  header .title {
+    font-family: "europa","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  header .title-secondary {
+    font-family: "Droid Serif", "Times New Roman", Times, serif;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: 0.07em;
+  }
+  header .contact {
+    font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  header .soon {
+    font-family: "Droid Serif", "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #fed136;
+}
