@@ -23,7 +23,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #3C3A38;
+  color: #0000FF;
 }
 a:hover,
 a:focus,
@@ -68,7 +68,7 @@ header .intro-text-bottom {
   padding-bottom: 60px;
 }
 header .line {
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 58px;
   width: 66px;
   border-bottom: 2px solid #3C3A38;
@@ -76,16 +76,16 @@ header .line {
 }
 header .title {
   font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 38px;
-  line-height: 46px;
-  margin-bottom: 10px;
+  font-size: 34px;
+  line-height: 1.1em;
+  margin-bottom: 16px;
   letter-spacing: 0.18em;
   font-weight: 700;
 }
 header .title-secondary {
   font-family: "Sabon LT W01 Roman", "Times New Roman", Times, serif;
   font-size: 24px;
-  line-height: 50px;
+  line-height: 30px;
   letter-spacing: 0.09em;
 }
 header .contact {
@@ -102,10 +102,23 @@ header .soon {
   margin-top: 40px;
   margin-bottom: 10px;
 }
-
-@media (min-width: 992px) {
+@media (min-width: 500px) {
   header .intro-text-top {
-    padding-top: 180px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+  }
+  header .title {
+    font-family: "europa","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 1em;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+@media (min-width: 768px) {
+  header .intro-text-top {
+    padding-top: 103px;
     padding-bottom: 0px;
   }
   header .intro-text-bottom {
@@ -122,8 +135,8 @@ header .soon {
   header .title {
     font-family: "europa","Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 50px;
-    line-height: 40px;
-    letter-spacing: 0.2em;
+    line-height: 47px;
+    letter-spacing: 0.15em;
     margin-bottom: 30px;
     font-weight: 700;
   }
@@ -152,7 +165,16 @@ header .soon {
   }
 }
 
-
+@media (min-width: 992px) {
+  .rwd-break { display: none; }
+  header .intro-text-top {
+    padding-top: 150px;
+    padding-bottom: 0px;
+  }
+  header .intro-text-bottom {
+    padding-top: 0px;
+    padding-bottom: 200px;
+  }
 
 img::selection {
   background: transparent;
